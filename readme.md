@@ -1,6 +1,7 @@
 # Installation & Setup
 
 * brew install blackhole-2ch
+* brew install SDL2
 * brew install python@3.10
 * /usr/local/bin/python3.10 -m venv cwenv
 * source cwenv/bin/activate
