@@ -21,4 +21,9 @@
 # Run
 
 * Open OBS and create a Source "Text" with the name CWbanner 
+* 1. Configure OBS for websockets 
+	2.	Tools ▸ WebSocket Server Settings
+	3.	Tick Enable WebSocket server
+	4.	Port – leave at 4455 unless you need something else
+	5.	Authentication – tick Enable authentication, enter the password "supersecret"
 * Run `python3 cw_to_obs.py`
