@@ -1,5 +1,5 @@
 # Installation & Setup
-
+* TODO: add instructions for directory management
 * You will need to install cmake prior to running these steps
 * brew install blackhole-2ch
 * brew install SDL2
