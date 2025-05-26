@@ -1,5 +1,6 @@
 # Installation & Setup
 
+* You will need to install cmake prior to running these steps
 * brew install blackhole-2ch
 * brew install SDL2
 * brew install python@3.10
