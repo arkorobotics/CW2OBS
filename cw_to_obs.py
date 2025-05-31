@@ -26,12 +26,13 @@ PRINTABLE = set(string.ascii_uppercase + string.digits + "/?= " + string.ascii_l
 def main():
     # Launch ggmorse-gui unbuffered
     proc = subprocess.Popen(
-        [GG_BIN, "-d", AUDIO_DEV, "-r", "8000"],
+        [GG_BIN, f"-c{AUDIO_DEV}", "-r", "8000"],
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
         bufsize=0,              # unbuffered! read(1) delivers instantly
         text=True
     )
+
 
     ws = obsws(OBS_HOST, OBS_PORT, OBS_PASS); ws.connect()
 
